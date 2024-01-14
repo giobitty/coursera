@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="styleContactForma.css">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey   Form</h1>
+      <p id="description">Thank you for using our services </p>
+    </header>
+    <form id="survey-form" method="POST" action='#'>
+      <fieldset>
+        <legend>Tell us about yourself: </legend>
+        <label for="name" id="name-label">Enter your Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="surname" id="surname-label">Enter your Surname: <input type="text" id="surname" placeholder="Enter your surname" required></label>
+        <label for="email" id="email-label">Enter your Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label">Enter your age: <input type="number" min="13" max="120" placeholder="Age" required id="number"></label>
+        <label for="bio">Tell us a bit about yourself: 
+          <textarea name="bio" id="bio" placeholder="I am really interested in coding because.." rows="3" cols="35"></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about us (required)</legend>
+        <label for="online" class="inline"> <input  class="inline" type="radio" id="online" name="know-us-by" checked  value="1"> Online Search</label>
+        <label for="social" class="inline"> <input class="inline" type="radio" id="social" name="know-us-by"  value="2"> Social Media</label>
+        <label for="youtube" class="inline"> <input class="inline" type="radio" id="youtube"
+       name="know-us-by"  value="3"> Youtube</label>
+        <label for="friends" class="inline"> <input class="inline" type="radio" name="know-us-by" id="friends"  value="4"> Friends</label>
+        <label for="other" class="inline"> <input class="inline" type="radio" id="other" name="know-us-by" value="5"> Other</label>
+      </fieldset>
+<fieldset>
+  <label for="personal-info" class="penultimo-field">You learn coding for: </label>
+  <select id="dropdown" name="dropdown">
+    <option value=''>(Select one)</option>
+    <option value='1'>Personal growth</option>
+    <option value='2'>Work</option>  
+  </select>
+</fieldset>
+<fieldset>
+<legend>Tell us your opinion</legend>
+<label for="suggestions">How can we make things better: <textarea rows='3' cols="30" id="suggestion" placeholder="I enjoyed the coding but i think that the...could be improved"></textarea></label> 
+
+<label for="suggest-to-friends"><input type='checkbox' class='inline' name="suggest-to-friend" id="suggest-to-friend" value='1'> I would suggest it to a friend</label>
+
+</fieldset>
+<label for="terms-and-conditions">
+<input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="1"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+</label>
+      <input type="submit" id="submit">
+      
+    </form>
+  </body>
+</html>
