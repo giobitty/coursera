@@ -67,7 +67,7 @@ function draw(userChoice, computerChoice){
 function game(userChoice){
     //console.log("poop poop poop" + userChoice);
     const computerChoice = getComputerChoice();
- //adesso dobbiamo comparare e decidere chi vince faremo con un switch e non un if;ossia swich e se il caso e' x ridai y e cosi via con in mezzo break per fermare l esecuzione
+ //adesso dobbiamo comparare e decidere chi vince faremo con un switch e non un if;ossia switch e se il caso e' x ridai y e cosi via con in mezzo break per fermare l esecuzione
     switch(userChoice + computerChoice){
         case "rs":
         case "pr":
