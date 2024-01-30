@@ -1,0 +1,65 @@
+/* if you use *{display:block} the title in the head section will show so fo this case let's use it on the body and not the whole*/
+*{
+    margin: 0;
+}
+
+body{
+   display: block;
+   background-color: bisque;
+}
+header{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 12px;
+   
+}
+a{
+    text-align: center;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.9);
+    height: 87px;
+}
+.menu{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top:0;
+}
+.nav-link{
+    padding: 8px;
+    
+}
+p{  
+    margin: 75px;
+    text-align: center;
+}
+.landing-sections{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+form{
+    margin:auto 0;
+}
+.email-contact{
+    margin: 18px auto;
+}
+.article-c{
+    margin: 0 auto;
+    padding: 34px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
