@@ -1,11 +1,11 @@
 var frasi= [
-    "Fatti una bella doccia",
-    "Non lo fare",
-    "Si puo fare vha",
-    "Ciao dottore",
-    "Facciamo domani",
-    "Continua cosi",
-    "Andra' sempre meglio",
+    "Take a shower and shake it off",
+    "What's good will come",
+    "Pay attention",
+    "Too much coffee",
+    "Maybe tomorrow",
+    "Go code",
+    "So what about studying",
     "Cash Cash Cash"
 ]
 function newQuote(){
