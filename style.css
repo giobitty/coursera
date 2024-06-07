@@ -5,6 +5,7 @@ h1{
 .menu li{
     list-style: none;
     /* border: 1px solid red; */
+    width: 40%;
     text-align: center;
     padding: 10px;
     background-color: antiquewhite;
@@ -19,10 +20,22 @@ h1{
     color: rgb(151, 131, 131);
     
 }
+.menu li:hover{
+    background-color: rgb(155, 125, 86);
+}
+.menu a:hover{
+    color: antiquewhite;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
 li{
     list-style: none;
 }
 a{
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
     color: rgb(119, 103, 103);
 }
