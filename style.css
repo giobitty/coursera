@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: rgb(151, 131, 131);
+}
+.menu li{
+    list-style: none;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    margin: 18px ;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(151, 131, 131);
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(119, 103, 103);
+}
